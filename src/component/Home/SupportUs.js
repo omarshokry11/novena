@@ -24,7 +24,7 @@ function SupportUs() {
     };
 
     return (
-        <Box padding={'100px 0'}>
+        <Box paddingTop={'100px'} paddingBottom={'50px'}>
             <Container>
                 <Box marginBottom={2}>
                     <TitlePages
@@ -45,8 +45,8 @@ function SupportUs() {
                 touchTrackingEnabled={true}
                 mouseTrackingEnabled={true}
             >
-                {items.map((item)=> <Box key={item.id}>
-                        <img src={item.img} alt='doctor-img' width={'70%'} />
+                {items.map((item)=> <Box key={item.id} width={{xs: "55%", sm:"70%"}} margin={'0 auto'}>
+                        <img src={item.img} alt='doctor-img' width={'100%'} style={{margin: "0 auto"}} />
                     </Box>)}
             </AliceCarousel>
             </Container>

@@ -8,10 +8,10 @@ function Banner() {
             <img src='/images/banner.jpg' alt='' width='100%' height='100%' style={{objectFit:"cover", }} />
             
             <Container>
-                <Box position={'absolute'} top={0} width={{xs:"100%", sm:"90%",md:'34%'}} padding={{xs:'100px 0', md:'100px 25px'}}>
+                <Box position={'absolute'} top={0}  width={{xs:"90%"}} padding={{xs:'100px 0', md:'100px 25px'}}>
                     <Typography variant='body2' width={40} height={5} bgcolor="#e12454" marginBottom={'1.5rem'}></Typography>
                     
-                    <Box paddingRight={{xs:'25px', sm:0}} marginBottom={'3rem'}>
+                    <Box marginBottom={'3rem'}>
                         <Typography variant='body' lineHeight={1.4} fontWeight={'bold'} fontSize={{xs:29, sm: 47}} marginRight={1}>
                         We are pleased to offer you the
                         <Typography variant='body' lineHeight={1.4} fontWeight={'bold'} marginLeft={1} fontSize={{xs:29, sm: 47}} color={'#223a66'}>chance to have the healthy</Typography>
