@@ -1,0 +1,122 @@
+/* Dropdown menu */
+.dropdown-menu {
+  animation: animateHeight 0.5s;
+  transition: all 0.5s;
+}
+@keyframes animateHeight {
+  0% {
+    height: 0;
+    opacity: 0;
+  }
+  50% {
+    height: 250px;
+    opacity: 0;
+  }
+  100% {
+    height: 100%;
+    opacity: 1;
+  }
+}
+
+/* Submit btn */
+.submit-btn {
+  transition: all 0.4s;
+  cursor: pointer;
+  background-color: #223a66;
+  border: 1px solid #223a66;
+  color: #FFF;
+}
+.submit-btn:hover {
+  background-color: #e12454;
+  border: 1px solid #e12454;
+}
+
+/* Footer */
+.footer-text {
+  color: #6f8ba4;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.footer-text:hover {
+  color: #e12454;
+}
+.footer-btn {
+  cursor: pointer;
+  background-color: #e12454;
+  transition: all .5s;
+}
+.footer-btn:hover {
+  background-color: #223a66;  
+}
+
+/* Category */
+.category-text{
+  transition: all 0.4s;
+}
+.category-text:hover {
+  margin-left: .5rem;
+  color:#6f8ba4
+}
+
+/* Tags */
+.tag-text{
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.tag-text:hover{
+  background-color: #223a66;
+  color: #FFF;
+}
+
+/* Number Pages */
+.num-page{
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.num-page:hover{
+  background-color: #223a66;
+  color: #FFF;
+}
+
+/* Doctor Page */
+.active{
+    border-radius:3px;
+    background-color:#e12454;
+    color:#FFF;
+    padding:.6rem 1.5rem;
+    border: none;
+    font-size:16px; 
+    font-weight:700;
+}
+.btn-style{
+    border-radius:3px;
+    background: none;
+    border: none;
+    outline: none;
+    border:none;
+    outline:none;
+    padding:.6rem 1.5rem; 
+    margin:5px; 
+    font-size:16px; 
+    font-weight:700;
+    cursor:pointer;
+    transition: all 0.4s;
+}
+.btn-style:hover{
+    background-color:#e12454;
+    color:#FFF;
+}
+.img-doctor{
+  transition: all .5s;
+}
+.img-doctor:hover{
+  transform: scale(1.1);
+}
+
+.btn-color{
+  transition: all .5s;
+  background-color: #223a66;
+}
+.btn-color:hover{
+  background-color: #e12454;
+}

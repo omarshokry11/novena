@@ -1,0 +1,16 @@
+.products-carousel-section {
+  padding: 30px 0 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.alice-carousel {
+  margin-top: 5rem;
+}
+
+.alice-carousel__prev-btn-item,
+.alice-carousel__next-btn-item {
+  display: none !important;
+}
