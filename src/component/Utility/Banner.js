@@ -4,8 +4,8 @@ import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 
 function Banner() {
     return (
-        <Box height={'500px'} position={'relative'}>
-            <img src='/images/banner.jpg' alt='' width='100%' height='100%' style={{objectFit:"cover", }} />
+        <Box height={'500px'} position={'relative'} overflow={'hidden'}>
+            <img src='/images/banner.jpg' alt='' width='100%' height='100%' style={{objectFit:"cover", overflow:"hidden"}} />
             
             <Container>
                 <Box position={'absolute'} top={0}  width={{xs:"90%"}} padding={{xs:'100px 0', md:'100px 25px'}}>
